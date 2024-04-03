@@ -12,7 +12,7 @@
 
 <style scoped>
     .promotion-text {
-        margin-top: 80px;
+        margin: 80px 0px;
         text-align: center;
     }
 

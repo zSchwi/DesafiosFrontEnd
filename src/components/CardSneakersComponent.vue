@@ -27,8 +27,16 @@
     .card {
         width: 384px;
         height: 326px;
-        margin-left: 20px; /*Precisa ser retirado dps*/
     }
+
+    /**TODO: Fazer a transição de volta ficar suave também  
+
+    .card:hover {
+        transform: scale(1.2);
+        transition: 400ms linear;
+        padding: 25px;
+    }
+    */
 
     .card-image {
         display: flex;
@@ -38,6 +46,10 @@
         height: 200px;
         background-color: #c4eec9;
         border-radius: 10px 10px 0px 0px;
+    }
+
+    .card:hover() {
+        
     }
 
     .sneaker-image {

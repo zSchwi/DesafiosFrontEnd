@@ -1,21 +1,27 @@
 <script setup>
 import HeaderComponent from './components/HeaderComponent.vue'
 import PromotionSection from './components/PromotionTextComponent.vue'
-import CardSneaker from './components/CardSneakersComponent.vue'
+import ListProducts from './components/ListProductComponent.vue'
 
   
 </script>
 
 <template>
+  
   <header>
     <HeaderComponent />
   </header>
 
   <main>
-    <PromotionSection />
+
     <section>
-      <CardSneaker />
+      <PromotionSection />
     </section>
+
+    <section>
+      <ListProducts />
+    </section>
+
   </main>
 
 </template>
